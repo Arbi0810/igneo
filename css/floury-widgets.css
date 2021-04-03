@@ -1,0 +1,676 @@
+
+
+
+
+
+
+
+/*=======================================
+=            Widget About us            =
+=======================================*/
+
+	.slz-widget-about-us .slz-logo {
+		top: auto;
+		display: inline-block;
+		transform: none;
+		position: relative;
+	}
+	
+	.slz-widget-about-us .widget-title.logo-title, 
+	.slz-widget-about-us .title-widget.logo-title {
+		background-color: transparent;
+		padding: 0;
+		text-align: left;
+	}
+
+	.slz-widget-about-us .widget-title.logo-title:before, 
+	.slz-widget-about-us .title-widget.logo-title:before {
+		content: none;
+	}
+
+	.slz-widget-about-us .widget-title.logo-title + *, 
+	.slz-widget-about-us .title-widget.logo-title + * {
+		border: none;padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+	}
+	
+	.slz-widget-about-us div + .social {
+		margin-top: 30px;
+	}
+
+
+	.slz-widget-about-us .social .link {
+	   	margin: 0 5px 5px 0;
+	   	width: 30px;
+	   	height: 30px;
+		text-align: center;
+		color: #636363;
+		display: inline-block;
+	   	border: 1px solid #bebebe;
+	   	line-height: 28px;
+	   	background-color: transparent;
+	}
+
+	.slz-widget-about-us .social .link:hover{
+		color: #fff;
+		background-color: #A7753A;
+		border-color: #A7753A;
+	}
+
+/*=====  End of Widget About us  ======*/
+
+
+/*=========================================
+=            Widget Categories            =
+=========================================*/
+ 
+	.slz-categories2 .link,
+	.slz-categories .link {
+		position: relative;
+	}
+
+	.slz-categories .link, 
+	.slz-categories2 .link,
+	.slz-widget-taxonomy .link,
+	.slz-widget-custom-post ul li {
+		display: block;
+		padding: 12px 0;
+		margin-bottom: 0;
+	    border-top: 0;
+	    border-bottom: 1px solid #f4f4f4;
+	    transition: all 0.3s ease;
+	    line-height: 24px;
+	}
+	
+
+	.slz-categories .link:first-child,
+	.slz-categories2 .link:first-child,
+	.slz-widget-custom-post ul li:first-child,
+	.slz-widget-taxonomy .link:first-child {
+		padding-top: 0;
+	}
+	.slz-categories .link:last-child,
+	.slz-categories2 .link:last-child,
+	.slz-widget-custom-post ul li:last-child,
+	.slz-widget-taxonomy .link:last-child {
+		border-bottom: 0;
+	}
+
+	.slz-categories .link > .badge,
+	.slz-widget-taxonomy .link > .badge {
+		color: inherit;
+		float: right;
+		background-color: transparent;
+	}
+
+	.slz-categories2 .link > .icons {
+		display: none;
+	}
+	.slz-categories .link:hover,
+	.slz-categories2 .link:hover,
+	.slz-widget-taxonomy .link:hover {
+		color: #a7753a;
+	}
+
+	.slz-categories .two-column {
+		margin: 0;
+	}
+
+	.slz-categories .two-column .link {
+	    border-top: 1px solid #f4f4f4;
+	    border-bottom: none;
+
+	}
+
+	.slz-categories .two-column .link > .icons {
+		display: inline-block;
+		color: inherit;
+	}
+
+	.slz-categories .two-column .link > .icons:before {
+		content: '\f101';
+	}
+
+	.slz-categories .two-column .link:nth-child(-n + 2) {
+		padding-top: 0;
+		border-top: none;
+	}
+
+	.slz-categories .two-column .link {
+	    width: calc(50% - 20px);
+	    padding: 12px 0;
+	}
+
+	.slz-categories .two-column .link:nth-child(odd) {
+		margin-right: 10px;
+	}
+
+	.slz-categories .two-column .link:nth-child(even) {
+		margin-left: 10px;
+	}
+
+	.slz-widget-category .link  {
+		font-size: 14px;
+	}
+
+/*=====  End of Widget Categories  ======*/
+
+
+/*======================================
+=            Widget Gallery            =
+======================================*/
+ 
+	.slz-widget-gallery ul li,
+	.slz-gallery ul li {
+		padding: 8px;
+	}
+
+	.slz-widget-gallery ul,
+	.entry-content .slz-widget-gallery ul,
+	.slz-gallery ul {
+		margin: 0 -8px;
+	}
+
+	.slz-widget-gallery .thumb:after, 
+	.slz-gallery .thumb:after {
+		background-color: rgba(167, 117, 58, 0.7);
+	}
+
+    .slz-widget .slick-dots li {
+    	width: 10px;
+    	margin: 0 5px;
+	}
+	
+	.slz-widget-gallery-carousel .slick-dots {
+		position: absolute;
+	    display: block;
+	    width: 100%;
+	    padding: 0;
+	    margin: 0;
+	    list-style: none;
+	    text-align: center;
+	    margin: 0 auto;
+	    bottom: 4px;
+	    right: 0;
+	}
+	
+/*=====  End of Widget Gallery  ======*/
+
+
+/*=======================================
+=            Widget Calendar            =
+=======================================*/
+
+ 	.widget_calendar .block-title {
+        margin-bottom: 17px;
+    }
+
+    .widget_calendar caption {
+    	margin: 0px;
+        border: 1px solid #f0f0f0;
+        border-bottom: 0;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    .widget_calendar table {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .widget_calendar table th {
+        text-align: center;
+    }
+
+    .widget_calendar td {
+        padding: 8px 0;
+    }
+
+    .widget_calendar #today {
+        background-color: #A7753A;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .widget_calendar #today a {
+    	color: #fff;
+    }
+
+    .widget_calendar #today {
+        background-color: #A7753A;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .widget_calendar thead tr {
+        line-height: 34px;
+    }
+
+    .entry-content .widget_calendar table{
+        border:none;
+    }
+    .widget_calendar table td,
+    .widget_calendar table th{
+        border: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .widget_calendar caption {
+        border: none;
+        padding-bottom: 0;
+
+    }
+    .widget_calendar tfoot{
+        display: none;
+    }
+    .entry-content .widget_calendar caption {
+       padding-top: 20px;
+       margin-top: 0;
+       color:#636363;
+    }
+    .widget_calendar #today{
+        font-weight: 500;
+        color: #FFFFFF;
+        position: relative;
+        background-color: transparent;
+        line-height: 25px;
+    }
+    .widget_calendar #today:before{
+        position: absolute;
+        content: '';
+        width: 25px;
+        height: 25px;
+        top: 50%;
+        left: 50%;
+        background-color: #A7753A;
+        z-index: -1;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    }
+
+/*=====  End of Widget Calendar  ======*/
+
+
+/*=====================================
+=            Widget Tweets            =
+=====================================*/
+
+ 	.slz-new-tweet .list-news-tweet .recent-post {
+ 		padding: 0;
+ 	}
+
+ 	.slz-new-tweet .list-news-tweet .recent-post + .recent-post {
+ 		margin-top: 20px;
+ 	}
+
+/*=====  End of Widget Tweets  ======*/
+
+
+/*===================================
+=            Widget Tags            =
+===================================*/
+ 	
+ 	.slz-widget-tags li {
+ 		padding: 0;
+ 	}
+
+	.slz-widget-tags li a {
+		padding: 3px 12px;
+		background-color: transparent;
+		line-height: 24px;
+		margin: 0 10px 10px 0;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid #ededed;
+	    transition: all 0.3s ease;
+	}
+
+	.slz-widget-tags li a:hover {
+		background-color: #A7753A;
+		border-color: #A7753A;
+		color: #fff;
+	}
+
+/*=====  End of Widget Tags  ======*/
+
+
+/*==========================================
+=            Widget Recent post            =
+==========================================*/
+	
+	.slz-widget-recent-post .wrapper-image{
+		width: 80px;
+	}
+
+	.slz-widget-recent-post .wrapper-image:before{
+		padding-top: 100%;
+	}
+
+	.slz-widget-recent-post .media-heading {
+		color: #2f2f2f;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.4;
+	}
+
+	.slz-widget-recent-post .meta-info:before {
+		content: none;
+	}
+
+	.slz-widget-recent-post .media-heading:hover,
+	.slz-widget-recent-post .meta-info .link:hover,
+	.slz-widget-recent-post .media-heading:focus,
+	.slz-widget-recent-post .meta-info .link:focus {
+		color: #A7753A;
+	}
+
+	.slz-widget-recent-post .meta {
+		margin: 0;
+	}
+
+	.slz-widget-recent-post .meta-info {
+		margin: 0 12px 5px 0;
+		font-size: 13px;
+		line-height: 14px;
+	}
+
+	.slz-widget-recent-post .meta-info .link{
+		color: #979797;
+		font-style: normal;
+		padding-left: 0;
+		font-weight: 400;
+	}
+	
+	.slz-widget-recent-post .icon-meta{
+		display: inline-block;
+	}
+
+	.slz-widget-recent-post .meta-info i + .link {
+		padding-left: 6px;
+	}
+
+	.slz-widget-recent-post .meta-info:after{
+		content: '|';
+		margin-left: 12px;
+		color: #979797;
+		font-style: normal;
+	}
+
+	.slz-widget-recent-post .meta-info:last-child {
+		margin-right: 0;
+	}
+
+	.slz-widget-recent-post .meta-info:last-child:after {
+		content: none;
+	}
+
+	/* ------------CAROUSEL(POST SLIDER)--------------- */
+
+	.slz-widget-post-slider .slz-block-item-01 .block-image .link:before,
+	.slz-widget-post-slider .slz-block-item-01 .block-image .link:after{
+		content: none;
+	}
+
+	.slz-widget-post-slider .slz-block-item-01 .block-image {
+		background-color: transparent;
+	}
+    
+    .slz-carousel-photos .slz-carousel .thumb:before{
+    	content: '';
+    	display: block;
+    	padding-top: 100%;
+    }
+
+    .slz-carousel-photos .slz-carousel .thumb img{
+    	top:0;
+		width: auto;
+		position: absolute;
+		height: 100%;
+		max-width: none;
+
+    }
+	
+	.slz-widget-post-slider .block-title {
+		font-size: 16px;
+		color:#2f2f2f;
+	}
+
+	.slz-wrapper-footer.slz-dark .slz-widget-post-slider .block-title {
+		color: #fafafa;
+		font-weight: 400;
+	}
+    
+    .slz-widget-post-slider .slz-carousel-wrapper .slz-block-item-01 {
+		background-color: transparent;	
+    }
+
+	.slz-widget-post-slider .slz-gallery-format .wrapper-image img,
+	.slz-widget-post-slider .slz-block-item-01 .block-image a img, 
+	.slz-widget-post-slider .slz-block-item-01 .block-image .img-full,
+	.slz-widget-post-slider .slz-carousel .slz-block-item-01:hover .block-image a img{
+		opacity: 1;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+	}
+
+	/* ------------GALLERY CAROUSEL--------------- */
+
+	.slz-widget-gallery-carousel .slick-list{
+		margin: 0 -8px;
+	}
+
+    .slz-widget-gallery-carousel .slz-carousel .item{
+     	padding: 0 8px 8px 8px;
+    }
+
+    .slz-wrapper-footer.slz-dark .slz-carousel .item{
+    	border: none;
+    }
+    
+	.slz-widget-gallery-carousel img{
+		margin-bottom: 0 !important;
+	}
+
+/*=====  End of Widget Recent post  ======*/
+
+
+/*=========================================
+=            Widget Banner ADS            =
+=========================================*/
+
+	.slz-widget-ads-banner .widget-content .link:before {
+	    top: 20px;
+	    left: 20px;
+	    right: 20px;
+	    bottom: 20px;
+	    z-index: 1;
+	    opacity: 0;
+	    position: absolute;
+	    content: "";
+	    background-color: rgba(167, 117, 58, 0.7);
+	    transition: all 0.3s ease;
+	    -webkit-transition: all 0.3s ease;
+	    opacity: 0;
+	}
+	.slz-widget-ads-banner .widget-content .link:hover:before{
+	    opacity:1;
+	}
+
+/*=====  End of Widget Banner ADS  ======*/
+
+
+/*==================================
+=            More style            =
+==================================*/
+
+	/* ---------------parter---------------- */
+
+		.slz-partner-carousel .slick-list .slick-slide,
+		.slz-list-logo .item {
+		    filter: grayscale(1);
+		}
+
+		.slz-partner-carousel .slick-list .slick-slide:hover,
+		.slz-list-logo .item:hover {
+		    filter: grayscale(0);
+		}
+
+	/* ------------------progress bar ------------- */
+		.slz-progress-bar-01.style-4 .progress-title {
+			left: 5px;
+			transform: none;
+		}
+
+
+/*=====  End of More style  ======*/
+
+
+/*===========================================
+=            Footer Style Widget            =
+===========================================*/
+
+	
+
+	.slz-wrapper-footer .slz-widget .widget-title,
+	.slz-wrapper-footer .slz-widget .title-widget {
+		background-color: transparent;
+		padding: 0;
+		text-align: left;
+		letter-spacing: 0;
+		color: #A7753A;
+		margin-bottom: 30px;
+	}
+
+	.slz-wrapper-footer  .slz-widget .title-widget:before, 
+	.slz-wrapper-footer .slz-widget .widget-title:before {
+		margin-left: 0;
+	}
+
+	.slz-wrapper-footer .slz-widget .widget-title + *, 
+	.slz-wrapper-footer .slz-widget .title-widget + * {
+		border: none;
+		padding: 0;
+	}
+
+	.slz-wrapper-footer.slz-dark > div,
+	.slz-wrapper-footer.slz-dark a {
+		color: #d8d8d8;
+	}
+
+	.slz-wrapper-footer.slz-dark a:hover {
+		color: #A7753A;
+	}
+
+	/*----------  Widget About us  ----------*/
+	
+	.slz-footer-top .slz-logo {
+		max-width: 300px;
+		margin: 0;
+		max-height: 80px;
+	}
+
+	.slz-wrapper-footer .slz-widget-about-us {
+		max-width: 540px;
+	}
+
+	.slz-wrapper-footer .text-c .slz-widget-about-us {
+		margin: 0 auto;
+	}
+
+	.slz-wrapper-footer .text-r .slz-widget-about-us {
+		margin-right: 0;
+		margin-left: auto;
+	}
+
+	.slz-footer-top .slz-widget-about-us {
+		line-height: 30px;
+	}
+
+	.slz-footer-main .slz-widget .widget-title.logo-title {
+		min-height: 26px;
+	}
+
+	.slz-footer-main .slz-widget-about-us .slz-logo {
+	    left: 0;
+	    top: 50%;
+	    position: absolute;
+	    transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -o-transform: translateY(-50%);
+	}
+
+	/*----------  Widget Categories  ----------*/
+	.slz-wrapper-footer .slz-categories .link, 
+	.slz-wrapper-footer .slz-categories2 .link, 
+	.slz-wrapper-footer .slz-widget-taxonomy .link, 
+	.slz-wrapper-footer .slz-widget-custom-post ul li {
+		padding: 6px 0;
+		border-bottom: none;
+	}
+
+	.slz-wrapper-footer .slz-categories .link:first-child, 
+	.slz-wrapper-footer .slz-categories2 .link:first-child, 
+	.slz-wrapper-footer .slz-widget-taxonomy .link:first-child, 
+	.slz-wrapper-footer .slz-widget-custom-post ul li:first-child {
+		padding-top: 0;
+	}
+
+	.slz-wrapper-footer .slz-categories .link:last-child, 
+	.slz-wrapper-footer .slz-categories2 .link:last-child, 
+	.slz-wrapper-footer .slz-widget-taxonomy .link:last-child, 
+	.slz-wrapper-footer .slz-widget-custom-post ul li:last-child {
+		padding-bottom: 0;
+	}
+	/* ------------------------social------------------------------- */
+
+	.slz-wrapper-footer.slz-dark .slz-widget-about-us .social .link {
+		color:#ababab;
+		border: 1px solid #3a3a3a;
+	}
+
+	.slz-wrapper-footer.slz-dark .slz-widget-about-us .social .link:hover {
+		background-color: #fff;
+		border-color: #fff;
+		color:#A7753A;
+	}
+
+	/*----------  More Widget  ----------*/
+	.slz-wrapper-footer.slz-dark caption,
+	.slz-wrapper-footer.slz-dark .slz-new-tweet .list-news-tweet .recent-post .post-info .title .left-text .strongtext {
+		color: #fff;
+	}
+
+	.slz-wrapper-footer.slz-dark .slz-new-tweet .list-news-tweet .recent-post .post-info .description .text {
+		color: #d8d8d8;
+	}
+
+	.slz-wrapper-footer.slz-dark .slz-widget-tags li a:hover {
+		background-color: transparent;
+	}
+    
+    /* -------------------------------TAXONOMY – STYLE 2--------------------- */
+    .slz-widget-taxonomy .slz-widget-categories2 .link i:before{
+    	content: '';
+	    position: relative;
+	    width: 15px;
+	    height: 1px;
+	    top: -5px;
+	    display: inline-block;
+	    background-color: #A7753A;
+    }
+    
+
+/*=====  End of Footer Style Widget  ======*/
